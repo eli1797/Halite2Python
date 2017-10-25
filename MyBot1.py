@@ -15,40 +15,11 @@ import hlt
 # Then let's import the logging module so we can print out information
 import logging
 
-#functions
-def nearest_planet_to_ship(entity, game_map):
-    """
-    :param ent: The source entity (hopefully a ship)
-    :return: Entity of type planet that is closest to the ship
-    :rtype: entity
-    """
-    logging.info("In nearest_planet_to_ship")
-    nearest_planet = None
-    if isinstance(entity, hlt.entity.Ship):
-        logging.info("found entity to be ship")
-        ship = entity
-        logging.info("About to procur entities_by_distance from game_map")
-        entities_by_distance = game_map.nearby_entities_by_distance(ship)
-        for distance in sorted(entities_by_distance):
-            logging.info("inside distance for loop")
-            temp = next((nearest_entity for nearest_entity in entities_by_distance[distance]), None)
-            if isinstance(temp, hlt.entity.Ship):
-                # skip because we are looking for planets not ships
-                continue
-            if temp.is_owned():
-                # Skip this planet
-                continue
-            logging.info("about to define nearest_planet")
-            nearest_planet = temp
-            if nearest_planet != None:
-                break
-    return nearest_planet
-
 # GAME START
 # Here we define the bot's name as Settler and initialize the game, including communication with the Halite engine.
-game = hlt.Game("Settler")
+game = hlt.Game("Starter Bot")
 # Then we print our start message to the logs
-logging.info("Starting my Settler bot!")
+logging.info("Starting my starter bot!")
 
 while True:
     # TURN START
@@ -64,17 +35,12 @@ while True:
             # Skip this ship
             continue
 
-        # # For each planet in the game (only non-destroyed planets are included)
-        # for planet in game_map.all_planets():
-        #     # If the planet is owned
-        #     if planet.is_owned():
-        #         # Skip this planet
-        #         continue
-
-        logging.info("Calling gen_nav")
-        planet = nearest_planet_to_ship(ship, game_map)
-        logging.info("Done calling gen_nav")
-
+        # For each planet in the game (only non-destroyed planets are included)
+        for planet in game_map.all_planets():
+            # If the planet is owned
+            if planet.is_owned():
+                # Skip this planet
+                continue
 
         # If we can dock, let's (try to) dock. If two ships try to dock at once, neither will be able to.
         if ship.can_dock(planet):
