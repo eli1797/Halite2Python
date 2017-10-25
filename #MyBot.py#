@@ -37,6 +37,7 @@ while True:
             continue
 
         logging.info("about to nearest")
+        logging.info("")
         nearestPlanet = hlt.Gen.nearest_planet_to_ship(ship, game_map)
         logging.info("nearestPlanet instantiated")
 

@@ -9,3 +9,4 @@ build up a list of commands and send them with send_command_queue().
 from . import collision, constants, entity, game_map, gen_nav, networking
 
 from .networking import Game
+from .gen_nav import Gen

@@ -1,5 +1,6 @@
-from . import game_map
-from .entity import Entity, Planet, Ship
+from .game_map import *
+from .entity import Entity, Planet, Position, Ship
+import logging
 
 class Gen:
     """
@@ -8,6 +9,7 @@ class Gen:
     """
     @staticmethod
     def nearest_planet_to_ship(entity, game_map):
+        logging.info("nearest_planet_to_ship called")
         """
         :param ent: The source entity (hopefully a ship)
         :return: Entity of type planet that is closest to the ship
@@ -26,5 +28,3 @@ class Gen:
                 if nearest_planet != None:
                     break
         return nearest_planet
-
-
