@@ -2,6 +2,904 @@ INFO:root:Initialized bot Settler
 INFO:root:---NEW TURN---
 INFO:root:Starting my Settler bot!
 INFO:root:---NEW TURN---
-INFO:root:updated game map
+INFO:root:updated gaming map
 INFO:root:about to nearest
 INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:inside for loop
+INFO:root:nearestPlanet instantiated
