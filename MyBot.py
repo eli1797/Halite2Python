@@ -16,21 +16,17 @@ import hlt
 import logging
 
 #functions
-def nearest_planet_to_ship(entity, game_map):
+def nearest_unowned_planet_to_ship(entity, game_map):
     """
     :param ent: The source entity (hopefully a ship)
     :return: Entity of type planet that is closest to the ship
     :rtype: entity
     """
-    logging.info("In nearest_planet_to_ship")
     nearest_planet = None
     if isinstance(entity, hlt.entity.Ship):
-        logging.info("found entity to be ship")
         ship = entity
-        logging.info("About to procur entities_by_distance from game_map")
         entities_by_distance = game_map.nearby_entities_by_distance(ship)
         for distance in sorted(entities_by_distance):
-            logging.info("inside distance for loop")
             temp = next((nearest_entity for nearest_entity in entities_by_distance[distance]), None)
             if isinstance(temp, hlt.entity.Ship):
                 # skip because we are looking for planets not ships
@@ -38,7 +34,29 @@ def nearest_planet_to_ship(entity, game_map):
             if temp.is_owned():
                 # Skip this planet
                 continue
-            logging.info("about to define nearest_planet")
+            nearest_planet = temp
+            if nearest_planet != None:
+                break
+    return nearest_planet
+
+def nearest_enemy_planet(entity, game_map, me)
+    """
+    :param ent: The source entity (hopefully a ship)
+    :return: Entity of type planet not owned by me that is closest to the ship
+    :rtype: entity (planet)
+    """
+    nearest_planet = None
+    if isinstance(entity, hlt.entity.Ship):
+        ship = entity
+        entities_by_distance = game_map.nearby_entities_by_distance(ship)
+        for distance in sorted(entities_by_distance):
+            temp = next((nearest_entity for nearest_entity in entities_by_distance[distance]), None)
+            if isinstance(temp, hlt.entity.Ship):
+                # skip because we are looking for planets not ships
+                continue
+            if temp.get_owner == me:
+                # Skip this planet
+                continue
             nearest_planet = temp
             if nearest_planet != None:
                 break
@@ -54,6 +72,7 @@ while True:
     # TURN START
     # Update the map for the new turn and get the latest version
     game_map = game.update_map()
+    me = game_map.get_me()
 
     # Here we define the set of commands to be sent to the Halite engine at the end of the turn
     command_queue = []
@@ -72,9 +91,13 @@ while True:
         #         continue
 
         logging.info("Calling gen_nav")
-        planet = nearest_planet_to_ship(ship, game_map)
+        planet = nearest_unowned_planet_to_ship(ship, game_map)
         logging.info("Done calling gen_nav")
 
+        if (planet == None):
+            #no unowned planets remaining
+            #set the ship to go to a planet not owned by me
+            planet = nearest_enemy_planet(ship, game_map, me)
 
         # If we can dock, let's (try to) dock. If two ships try to dock at once, neither will be able to.
         if ship.can_dock(planet):

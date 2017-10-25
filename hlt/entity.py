@@ -132,7 +132,10 @@ class Planet(Entity):
         :return: True if owned, False otherwise
         :rtype: bool
         """
-        return self.owner is not None
+        return self.owner is not 
+
+    def get_owner(self):
+        return self.owner
 
     def is_full(self):
         """
