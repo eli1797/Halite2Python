@@ -16,7 +16,9 @@ class Gen:
         :rtype: entity
         """
         nearest_planet = None
+        logging.info(isinstance(entity, hlt.entity.Ship))
         if isinstance(entity, hlt.entity.Ship):
+            logging.info("Gen isinstance conditional true")
             ship = entity
             entities_by_distance = game_map.nearby_entities_by_distance(ship)
             for distance in sorted(entities_by_distance):
