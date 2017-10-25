@@ -16,13 +16,16 @@ class Gen:
         :rtype: entity
         """
         nearest_planet = None
-        logging.info(isinstance(entity, hlt.entity.Ship))
-        if isinstance(entity, hlt.entity.Ship):
-            logging.info("Gen isinstance conditional true")
+        if isinstance(entity, Ship):
+            logging.info("entity is a ship")
             ship = entity
             entities_by_distance = game_map.nearby_entities_by_distance(ship)
             for distance in sorted(entities_by_distance):
-                temp = next((nearest_entity for nearest_entity in entities_by_distance[distance] if isinstance(nearest_entity, hlt.entity.Planet)), None)
+                logging.info("inside for loop")
+                temp = next((nearest_entity for nearest_entity in entities_by_distance[distance]), None)
+                if isinstance(temp, Ship):
+                    #we want planets not ships so skip this entity
+                    continue
                 if temp.is_owned():
                     # Skip this planet
                     continue
