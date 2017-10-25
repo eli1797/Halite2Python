@@ -33,3 +33,28 @@ class Gen:
                 if nearest_planet != None:
                     break
         return nearest_planet
+
+    @staticmethod
+    def nearest_enemy_planet(entity, game_map, me):
+        logging.info("nearest_enemy_planet method started")
+        """
+        :param ent: The source entity (hopefully a ship)
+        :return: Entity of type planet that is closest to the ship
+        :rtype: entity
+        """
+        nearest_planet = None
+        if isinstance(entity, Ship):
+            ship = entity
+            entities_by_distance = game_map.nearby_entities_by_distance(ship)
+            for distance in sorted(entities_by_distance):
+                temp = next((nearest_entity for nearest_entity in entities_by_distance[distance]), None)
+                if isinstance(temp, Ship):
+                    #we want planets not ships so skip this entity
+                    continue
+                if temp.get_owner_id() == me.get_id():
+                    # Skip this planet
+                    continue
+                nearest_planet = temp
+                if nearest_planet != None:
+                    break
+        return nearest_planet

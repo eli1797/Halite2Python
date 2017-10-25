@@ -157,6 +157,9 @@ class Player:
         self.id = player_id
         self._ships = ships
 
+    def get_id(self):
+        return self.id
+
     def all_ships(self):
         """
         :return: A list of all ships which belong to the user

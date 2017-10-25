@@ -117,6 +117,10 @@ class Planet(Entity):
         """
         return self._docked_ships.get(ship_id)
 
+    def get_owner_id(self):
+        return self.owner
+
+
     def all_docked_ships(self):
         """
         The list of all ships docked into the planet
