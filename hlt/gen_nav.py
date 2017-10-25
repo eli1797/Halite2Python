@@ -1,5 +1,5 @@
 from . import game_map
-from .entity import Entity
+from .entity import Entity, Planet, Ship
 
 class Gen:
     """
