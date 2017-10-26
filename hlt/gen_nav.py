@@ -50,7 +50,7 @@ class Gen:
                 if isinstance(temp, Ship):
                     #we want planets not ships so skip this entity
                     continue
-                if temp.get_owner_id() == me.get_id():
+                if temp.get_owner_id(temp) == me.get_id():
                     # Skip this planet
                     continue
                 nearest_planet = temp
@@ -58,6 +58,7 @@ class Gen:
                     break
         return nearest_planet
 
+    # may or may not be working
     @staticmethod
     def nearest_friendly_planet(entity, game_map, me):
         logging.info("nearest_friendly_planet method started")
@@ -76,7 +77,7 @@ class Gen:
                     #we want planets not ships so skip this entity
                     continue
                 if temp.get_owner_id() != me.get_id():
-                    # Skip this planet
+                    # Skip tpphis planet
                     continue
                 nearest_planet = temp
                 if nearest_planet != None:
@@ -99,12 +100,18 @@ class Gen:
                 return None
             for distance in sorted(entities_by_distance):
                 temp = next((nearest_entity for nearest_entity in entities_by_distance[distance]), None)
+                logging.info("temp id: " + str(temp.get_owner_id(temp)))
+                logging.info("me id: " + str(me.get_id()))
+                if temp == None:
+                    continue
                 if isinstance(temp, Planet):
                     #we want planets not ships so skip this entity
                     continue
                 if temp.docking_status == ship.DockingStatus.UNDOCKED:
                     continue
-                if temp.get_owner_id() != me.get_id():
+                if temp.get_owner_id(temp) == me.get_id():
+                    logging.info("temp id: " + str(temp.get_owner_id(temp)))
+                    logging.info("me id: " + str(me.get_id()))
                     # Don't want to attack myself
                     continue
                 toReturn = temp

@@ -59,7 +59,7 @@ while True:
         #         continue
         logging.info("Check ship actions")
         # If we can dock, let's (try to) dock. If two ships try to dock at once, neither will be able to.
-        if nearestPlanet != None and ship.can_dock(nearestPlanet):
+        if nearestPlanet != None and ship.can_dock(nearestPlanet)  and not nearestPlanet.is_full():
             logging.info("About to attempt a docking move")
             # We add the command by appending it to the command_queue
             command_queue.append(ship.dock(nearestPlanet))
@@ -70,7 +70,7 @@ while True:
             enemyShip = hlt.Gen.nearest_docked_enemy(ship, game_map, me)
             logging.info(enemyShip)
             if enemyShip != None:
-                logging.info("found an enemy ship!")
+                logging.info("found an enemy ship! " + str(enemyShip))
                 # logging.info("num obstacles between" + game_map.obstacles_between(game_map, ship, enemyShip, entity.Ship))
                 # if len(game_map.obstacles_between(game_map, ship, enemyShip, entity.Ship)) == 0:
                 #     logging.info("no obstacles between me and enemy")
