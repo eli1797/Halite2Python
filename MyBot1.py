@@ -35,6 +35,7 @@ while True:
     command_queue = []
     # For every ship that I control
     for ship in game_map.get_me().all_ships():
+        logging.info("ship is : " + str(ship))
         nearestPlanet = None
         # If the ship is docked
         if ship.docking_status != ship.DockingStatus.UNDOCKED:
@@ -79,6 +80,9 @@ while True:
                 # else:
                 # logging.info("There were obstacles between me and enemy")
                 navigate_command = ship.navigate(enemyShip, game_map, speed=hlt.constants.MAX_SPEED, ignore_ships=True)
+            else:
+                logging.info("failed to find an emeny ship!")
+                navigate_command = ship.thrust(0, 0)
 
             if navigate_command:
                 logging.info("I am now trying to blow up enemy")
@@ -101,7 +105,6 @@ while True:
             if navigate_command:
                 logging.info("I am now trying to get near a planet")
                 command_queue.append(navigate_command)
-        break
 
     # Send our set of commands to the Halite engine for this turn
     game.send_command_queue(command_queue)
