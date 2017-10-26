@@ -17,7 +17,7 @@ import logging
 
 # GAME START
 # Here we define the bot's name as Settler and initialize the game, including communication with the Halite engine.
-game = hlt.Game("Settler")
+game = hlt.Game("Michael Bay")
 # Then we print our start message to the logs
 logging.info("Starting my Settler bot!")
 
@@ -25,9 +25,8 @@ while True:
     # TURN START
     # Update the map for the new turn and get the latest version
     game_map = game.update_map()
-    logging.info("updated gaming map")
     me = game_map.get_me()
-
+    logging.info(me)
     # Here we define the set of commands to be sent to the Halite engine at the end of the turn
     command_queue = []
     # For every ship that I control
@@ -50,20 +49,22 @@ while True:
         #     if planet.is_owned():
         #         # Skip this planet
         #         continue
+        logging.info(nearestPlanet)
         logging.info("Check ship actions")
         # If we can dock, let's (try to) dock. If two ships try to dock at once, neither will be able to.
-        if ship.can_dock(nearestPlanet):
+        if nearestPlanet != None and ship.can_dock(nearestPlanet) and not nearestPlanet.is_full():
             # We add the command by appending it to the command_queue
             command_queue.append(ship.dock(nearestPlanet))
 
-        elif nearestPlanet == None:
+        elif nearestPlanet == None or nearestPlanet.is_full():
             #after all the planets are taken ships need to make thrustmoves to attack
             #lets try attacking docked enemy ships
-            fleet = game_map.get_me().all_ships()
             enemyPlanet = hlt.Gen.nearest_enemy_planet(ship, game_map, me)
             if enemyPlanet != None:
-                navigate_command = fleet.navigate(enemyPlanet, game_map, speed=hlt.constants.MAX_SPEED, ignore_ships=True)
+                logging.info(enemyPlanet)
+                navigate_command = ship.navigate(enemyPlanet, game_map, speed=hlt.constants.MAX_SPEED, ignore_ships=True)
             if navigate_command:
+                logging.info("appending")
                 command_queue.append(navigate_command)
 
         else:

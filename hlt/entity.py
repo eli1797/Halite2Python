@@ -144,6 +144,8 @@ class Planet(Entity):
         :return: True if full, False otherwise.
         :rtype: bool
         """
+        if (self == None):
+            return None
         return len(self._docked_ship_ids) >= self.num_docking_spots
 
     def _link(self, players, planets):
@@ -239,8 +241,8 @@ class Ship(Entity):
         self._docking_progress = progress
         self._weapon_cooldown = cooldown
 
-    # def is_docked(self):
-    #     return self.docking_status == Ship.DockingStatus.DOCKED
+    def is_docked(self):
+        return self.docking_status == Ship.DockingStatus.DOCKED
 
     def thrust(self, magnitude, angle):
         """

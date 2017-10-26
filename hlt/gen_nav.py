@@ -17,7 +17,6 @@ class Gen:
         """
         nearest_planet = None
         if isinstance(entity, Ship):
-            logging.info("entity is a ship")
             ship = entity
             entities_by_distance = game_map.nearby_entities_by_distance(ship)
             for distance in sorted(entities_by_distance):
@@ -50,12 +49,13 @@ class Gen:
                 if isinstance(temp, Ship):
                     #we want planets not ships so skip this entity
                     continue
+                logging
                 if temp.get_owner_id() == me.get_id():
-                    # Skip this planet
-                    continue
-                nearest_planet = temp
-                if nearest_planet != None:
-                    break
+                    logging.info("I don't own")
+                    nearest_planet = temp
+                    if nearest_planet != None:
+                        break
+        logging.info(nearest_planet)
         return nearest_planet
 
     @staticmethod
@@ -74,6 +74,8 @@ class Gen:
                 return None
             for distance in sorted(entities_by_distance):
                 temp = next((nearest_entity for nearest_entity in entities_by_distance[distance]), None)
+                if temp == None:
+                    continue
                 if isinstance(temp, Planet):
                     #we want planets not ships so skip this entity
                     continue
@@ -81,7 +83,10 @@ class Gen:
                     continue
                 if temp.get_owner_id() == me.get_id():
                     # Don't want to attack myself
+                    logging.info("inside owner check")
                     continue
+                logging.info(me)
+                logging.info(temp)
                 toReturn = temp
                 if toReturn != None:
                     break
