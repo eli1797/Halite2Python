@@ -8,7 +8,7 @@ class Gen:
             -Returning the nearest planet to a ship
     """
     @staticmethod
-    def nearest_planet_to_ship(entity, game_map):
+    def nearest_free_planet_to_ship(entity, game_map):
         logging.info("nearest_planet_to_ship called")
         """
         :param ent: The source entity (hopefully a ship)
@@ -59,6 +59,31 @@ class Gen:
         return nearest_planet
 
     @staticmethod
+    def nearest_friendly_planet(entity, game_map, me):
+        logging.info("nearest_friendly_planet method started")
+        """
+        :param ent: The source entity (hopefully a ship)
+        :return: Entity of type friendly planet that is closest to the ship
+        :rtype: entity
+        """
+        nearest_planet = None
+        if isinstance(entity, Ship):
+            ship = entity
+            entities_by_distance = game_map.nearby_entities_by_distance(ship)
+            for distance in sorted(entities_by_distance):
+                temp = next((nearest_entity for nearest_entity in entities_by_distance[distance]), None)
+                if isinstance(temp, Ship):
+                    #we want planets not ships so skip this entity
+                    continue
+                if temp.get_owner_id() != me.get_id():
+                    # Skip this planet
+                    continue
+                nearest_planet = temp
+                if nearest_planet != None:
+                    break
+        return nearest_planet
+
+    @staticmethod
     def nearest_docked_enemy(entity, game_map, me):
         logging.info("nearest_docked_enemy method started")
         """
@@ -79,7 +104,7 @@ class Gen:
                     continue
                 if temp.docking_status == ship.DockingStatus.UNDOCKED:
                     continue
-                if temp.get_owner_id() == me.get_id():
+                if temp.get_owner_id() != me.get_id():
                     # Don't want to attack myself
                     continue
                 toReturn = temp

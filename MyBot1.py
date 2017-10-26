@@ -20,12 +20,15 @@ import logging
 game = hlt.Game("Settler")
 # Then we print our start message to the logs
 logging.info("Starting my Settler bot!")
+counter = 0
 
 while True:
+    counter += 1
+    # myTurnsCount = myTurnsCount + 1
     # TURN START
     # Update the map for the new turn and get the latest version
     game_map = game.update_map()
-    logging.info("updated gaming map")
+    logging.info("updated gaming map " + str(counter))
     me = game_map.get_me()
 
     # Here we define the set of commands to be sent to the Halite engine at the end of the turn
@@ -39,7 +42,8 @@ while True:
             continue
 
         logging.info("about to nearest")
-        nearestPlanet = hlt.Gen.nearest_planet_to_ship(ship, game_map)
+        nearestPlanet = hlt.Gen.nearest_free_planet_to_ship(ship, game_map)
+        # nearestFriendlyPlanet = hlt.Gen.nearest_friendly_planet(ship, game_map)
         logging.info("nearestPlanet instantiated")
 
         #what is all planets are owned
@@ -54,7 +58,7 @@ while True:
         #         continue
         logging.info("Check ship actions")
         # If we can dock, let's (try to) dock. If two ships try to dock at once, neither will be able to.
-        if ship.can_dock(nearestPlanet):
+        if nearestPlanet != None and ship.can_dock(nearestPlanet):
             logging.info("About to attempt a docking move")
             # We add the command by appending it to the command_queue
             command_queue.append(ship.dock(nearestPlanet))
@@ -65,8 +69,19 @@ while True:
             enemyShip = hlt.Gen.nearest_docked_enemy(ship, game_map, me)
             logging.info(enemyShip)
             if enemyShip != None:
+                logging.info("found an enemy ship!")
+                # logging.info("num obstacles between" + game_map.obstacles_between(game_map, ship, enemyShip, entity.Ship))
+                # if len(game_map.obstacles_between(game_map, ship, enemyShip, entity.Ship)) == 0:
+                #     logging.info("no obstacles between me and enemy")
+                #     myThrustAngle = ship.calculate_angle_between(enemyShip)
+                #     navigate_command = ship.thrust(hlt.constants.MAX_SPEED, myThrustAngle)
+
+                # else:
+                # logging.info("There were obstacles between me and enemy")
                 navigate_command = ship.navigate(enemyShip, game_map, speed=hlt.constants.MAX_SPEED, ignore_ships=True)
+
             if navigate_command:
+                logging.info("I am now trying to blow up enemy")
                 command_queue.append(navigate_command)
 
         else:
@@ -84,10 +99,12 @@ while True:
             # or we are trapped (or we reached our destination!), navigate_command will return null;
             # don't fret though, we can run the command again the next turn)
             if navigate_command:
+                logging.info("I am now trying to get near a planet")
                 command_queue.append(navigate_command)
         break
 
     # Send our set of commands to the Halite engine for this turn
     game.send_command_queue(command_queue)
+    logging.info("sent command_queue")
     # TURN END
 # GAME END
