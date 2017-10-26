@@ -49,12 +49,11 @@ class Gen:
                 if isinstance(temp, Ship):
                     #we want planets not ships so skip this entity
                     continue
-                logging
-                if temp.get_owner_id() == me.get_id():
-                    logging.info("I don't own")
-                    nearest_planet = temp
-                    if nearest_planet != None:
-                        break
+                if temp.get_owner_id(temp) != me.get_id():
+                    continue
+                nearest_planet = temp
+                if nearest_planet != None:
+                    break
         logging.info(nearest_planet)
         return nearest_planet
 
@@ -81,12 +80,9 @@ class Gen:
                     continue
                 if temp.docking_status == ship.DockingStatus.UNDOCKED:
                     continue
-                if temp.get_owner_id() == me.get_id():
+                if temp.get_owner_id(temp) != me.get_id():
                     # Don't want to attack myself
-                    logging.info("inside owner check")
                     continue
-                logging.info(me)
-                logging.info(temp)
                 toReturn = temp
                 if toReturn != None:
                     break

@@ -87,7 +87,7 @@ while True:
             # don't fret though, we can run the command again the next turn)
             if navigate_command:
                 command_queue.append(navigate_command)
-
+            break            
     # Send our set of commands to the Halite engine for this turn
     game.send_command_queue(command_queue)
     # TURN END

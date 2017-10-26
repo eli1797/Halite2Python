@@ -28,7 +28,7 @@ class Entity:
         self.owner = player
         self.id = entity_id
 
-    def get_owner_id(self):
+    def get_owner_id(self, entity):
         return self.owner
 
     def calculate_distance_between(self, target):
