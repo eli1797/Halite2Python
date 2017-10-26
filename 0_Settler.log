@@ -8,7 +8,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 8) at position: (x = 50.5757, y = 102.2731), with radius = 5.4494
+INFO:root:Entity Planet (id: 2) at position: (x = 109.6259, y = 69.6259), with radius = 6.8356
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -16,7 +16,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 8) at position: (x = 50.5757, y = 102.2731), with radius = 5.4494
+INFO:root:Entity Planet (id: 2) at position: (x = 109.6259, y = 69.6259), with radius = 6.8356
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -24,39 +24,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 8) at position: (x = 50.5757, y = 102.2731), with radius = 5.4494
-INFO:root:---NEW TURN---
-INFO:root:updated gaming map
-INFO:root:about to nearest
-INFO:root:nearest_planet_to_ship called
-INFO:root:entity is a ship
-INFO:root:nearestPlanet instantiated
-INFO:root:Check ship actions
-INFO:root:About to attempt a docking move
-INFO:root:---NEW TURN---
-INFO:root:updated gaming map
-INFO:root:about to nearest
-INFO:root:nearest_planet_to_ship called
-INFO:root:entity is a ship
-INFO:root:nearestPlanet instantiated
-INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 9) at position: (x = 62.7264, y = 53.0017), with radius = 5.4494
-INFO:root:---NEW TURN---
-INFO:root:updated gaming map
-INFO:root:about to nearest
-INFO:root:nearest_planet_to_ship called
-INFO:root:entity is a ship
-INFO:root:nearestPlanet instantiated
-INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 9) at position: (x = 62.7264, y = 53.0017), with radius = 5.4494
-INFO:root:---NEW TURN---
-INFO:root:updated gaming map
-INFO:root:about to nearest
-INFO:root:nearest_planet_to_ship called
-INFO:root:entity is a ship
-INFO:root:nearestPlanet instantiated
-INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 9) at position: (x = 62.7264, y = 53.0017), with radius = 5.4494
+INFO:root:Entity Planet (id: 2) at position: (x = 109.6259, y = 69.6259), with radius = 6.8356
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -72,7 +40,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 1) at position: (x = 110.0712, y = 89.9288), with radius = 6.5207
+INFO:root:About to attempt a docking move
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -80,7 +48,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 1) at position: (x = 110.0712, y = 89.9288), with radius = 6.5207
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -88,7 +56,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 1) at position: (x = 110.0712, y = 89.9288), with radius = 6.5207
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -96,7 +64,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 1) at position: (x = 110.0712, y = 89.9288), with radius = 6.5207
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -104,7 +72,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 1) at position: (x = 110.0712, y = 89.9288), with radius = 6.5207
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -112,7 +80,39 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 1) at position: (x = 110.0712, y = 89.9288), with radius = 6.5207
+INFO:root:About to attempt a docking move
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:About to attempt a docking move
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 12) at position: (x = 164.8052, y = 63.0971), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 3) at position: (x = 130.3741, y = 69.6259), with radius = 6.8356
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 3) at position: (x = 130.3741, y = 69.6259), with radius = 6.8356
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -133,12 +133,6 @@ INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
-INFO:root:about to nearest
-INFO:root:nearest_planet_to_ship called
-INFO:root:entity is a ship
-INFO:root:nearestPlanet instantiated
-INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 2) at position: (x = 110.0712, y = 70.0712), with radius = 6.5207
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -146,7 +140,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 2) at position: (x = 110.0712, y = 70.0712), with radius = 6.5207
+INFO:root:Entity Planet (id: 10) at position: (x = 75.1948, y = 96.9029), with radius = 6.3816
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -154,7 +148,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 2) at position: (x = 110.0712, y = 70.0712), with radius = 6.5207
+INFO:root:Entity Planet (id: 10) at position: (x = 75.1948, y = 96.9029), with radius = 6.3816
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -162,7 +156,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 2) at position: (x = 110.0712, y = 70.0712), with radius = 6.5207
+INFO:root:Entity Planet (id: 10) at position: (x = 75.1948, y = 96.9029), with radius = 6.3816
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -170,7 +164,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 2) at position: (x = 110.0712, y = 70.0712), with radius = 6.5207
+INFO:root:Entity Planet (id: 10) at position: (x = 75.1948, y = 96.9029), with radius = 6.3816
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -178,7 +172,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 2) at position: (x = 110.0712, y = 70.0712), with radius = 6.5207
+INFO:root:Entity Planet (id: 10) at position: (x = 75.1948, y = 96.9029), with radius = 6.3816
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -186,15 +180,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 2) at position: (x = 110.0712, y = 70.0712), with radius = 6.5207
-INFO:root:---NEW TURN---
-INFO:root:updated gaming map
-INFO:root:about to nearest
-INFO:root:nearest_planet_to_ship called
-INFO:root:entity is a ship
-INFO:root:nearestPlanet instantiated
-INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 2) at position: (x = 110.0712, y = 70.0712), with radius = 6.5207
+INFO:root:Entity Planet (id: 10) at position: (x = 75.1948, y = 96.9029), with radius = 6.3816
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -210,7 +196,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 5) at position: (x = 106.488, y = 44.6531), with radius = 5.7788
+INFO:root:Entity Planet (id: 13) at position: (x = 173.7819, y = 94.0816), with radius = 6.3816
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -218,7 +204,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 5) at position: (x = 106.488, y = 44.6531), with radius = 5.7788
+INFO:root:Entity Planet (id: 13) at position: (x = 173.7819, y = 94.0816), with radius = 6.3816
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -226,7 +212,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 5) at position: (x = 106.488, y = 44.6531), with radius = 5.7788
+INFO:root:Entity Planet (id: 13) at position: (x = 173.7819, y = 94.0816), with radius = 6.3816
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -234,7 +220,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 5) at position: (x = 106.488, y = 44.6531), with radius = 5.7788
+INFO:root:Entity Planet (id: 13) at position: (x = 173.7819, y = 94.0816), with radius = 6.3816
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -242,7 +228,39 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 5) at position: (x = 106.488, y = 44.6531), with radius = 5.7788
+INFO:root:Entity Planet (id: 13) at position: (x = 173.7819, y = 94.0816), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 13) at position: (x = 173.7819, y = 94.0816), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 13) at position: (x = 173.7819, y = 94.0816), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 13) at position: (x = 173.7819, y = 94.0816), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 13) at position: (x = 173.7819, y = 94.0816), with radius = 6.3816
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -258,7 +276,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 4) at position: (x = 111.4311, y = 135.7369), with radius = 5.7788
+INFO:root:Entity Planet (id: 7) at position: (x = 173.9859, y = 133.6078), with radius = 8.3878
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -266,7 +284,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 4) at position: (x = 111.4311, y = 135.7369), with radius = 5.7788
+INFO:root:Entity Planet (id: 7) at position: (x = 173.9859, y = 133.6078), with radius = 8.3878
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -274,7 +292,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 4) at position: (x = 111.4311, y = 135.7369), with radius = 5.7788
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -282,7 +300,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 4) at position: (x = 111.4311, y = 135.7369), with radius = 5.7788
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -290,7 +308,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 4) at position: (x = 111.4311, y = 135.7369), with radius = 5.7788
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -298,7 +316,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 4) at position: (x = 111.4311, y = 135.7369), with radius = 5.7788
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -306,7 +324,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 4) at position: (x = 111.4311, y = 135.7369), with radius = 5.7788
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -314,7 +332,7 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 4) at position: (x = 111.4311, y = 135.7369), with radius = 5.7788
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -322,7 +340,247 @@ INFO:root:nearest_planet_to_ship called
 INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
-INFO:root:Entity Planet (id: 4) at position: (x = 111.4311, y = 135.7369), with radius = 5.7788
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:About to attempt a docking move
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 6) at position: (x = 209.3559, y = 71.9988), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 6) at position: (x = 209.3559, y = 71.9988), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 6) at position: (x = 209.3559, y = 71.9988), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 6) at position: (x = 209.3559, y = 71.9988), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 6) at position: (x = 209.3559, y = 71.9988), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 6) at position: (x = 209.3559, y = 71.9988), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 6) at position: (x = 209.3559, y = 71.9988), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 6) at position: (x = 209.3559, y = 71.9988), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 6) at position: (x = 209.3559, y = 71.9988), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 6) at position: (x = 209.3559, y = 71.9988), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:About to attempt a docking move
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 7) at position: (x = 173.9859, y = 133.6078), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 7) at position: (x = 173.9859, y = 133.6078), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 7) at position: (x = 173.9859, y = 133.6078), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 7) at position: (x = 173.9859, y = 133.6078), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 7) at position: (x = 173.9859, y = 133.6078), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 7) at position: (x = 173.9859, y = 133.6078), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 7) at position: (x = 173.9859, y = 133.6078), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 7) at position: (x = 173.9859, y = 133.6078), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 7) at position: (x = 173.9859, y = 133.6078), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 7) at position: (x = 173.9859, y = 133.6078), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 7) at position: (x = 173.9859, y = 133.6078), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 7) at position: (x = 173.9859, y = 133.6078), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 7) at position: (x = 173.9859, y = 133.6078), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 7) at position: (x = 173.9859, y = 133.6078), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:About to attempt a docking move
 INFO:root:---NEW TURN---
 INFO:root:updated gaming map
 INFO:root:about to nearest
@@ -339,5 +597,1751 @@ INFO:root:entity is a ship
 INFO:root:nearestPlanet instantiated
 INFO:root:Check ship actions
 INFO:root:nearest_docked_enemy method started
-INFO:root:Entity Ship (id: 0) at position: (x = 54.2519, y = 93.8543), with radius = 0.5
+INFO:root:Entity Ship (id: 0) at position: (x = 113.0515, y = 59.8051), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 0) at position: (x = 113.0515, y = 59.8051), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 0) at position: (x = 113.0515, y = 59.8051), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 2) at position: (x = 109.6259, y = 69.6259), with radius = 6.8356
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 2) at position: (x = 109.6259, y = 69.6259), with radius = 6.8356
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 2) at position: (x = 109.6259, y = 69.6259), with radius = 6.8356
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 2) at position: (x = 128.8259, y = 59.6345), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 2) at position: (x = 128.8259, y = 59.6345), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 2) at position: (x = 128.8259, y = 59.6345), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 3) at position: (x = 130.3741, y = 69.6259), with radius = 6.8356
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 3) at position: (x = 130.3741, y = 69.6259), with radius = 6.8356
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 3) at position: (x = 130.3741, y = 69.6259), with radius = 6.8356
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 3) at position: (x = 130.3741, y = 69.6259), with radius = 6.8356
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 3) at position: (x = 130.3741, y = 69.6259), with radius = 6.8356
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:About to attempt a docking move
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 12) at position: (x = 117.1766, y = 77.1766), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:About to attempt a docking move
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 7) at position: (x = 84.2664, y = 92.5688), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 10) at position: (x = 75.1948, y = 96.9029), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 2) at position: (x = 109.6259, y = 69.6259), with radius = 6.8356
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 2) at position: (x = 109.6259, y = 69.6259), with radius = 6.8356
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 2) at position: (x = 109.6259, y = 69.6259), with radius = 6.8356
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 2) at position: (x = 109.6259, y = 69.6259), with radius = 6.8356
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 10) at position: (x = 75.1948, y = 96.9029), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 10) at position: (x = 75.1948, y = 96.9029), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 10) at position: (x = 75.1948, y = 96.9029), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 10) at position: (x = 75.1948, y = 96.9029), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 10) at position: (x = 75.1948, y = 96.9029), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 10) at position: (x = 75.1948, y = 96.9029), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 10) at position: (x = 75.1948, y = 96.9029), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 10) at position: (x = 75.1948, y = 96.9029), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 10) at position: (x = 75.1948, y = 96.9029), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:About to attempt a docking move
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 9) at position: (x = 168.8321, y = 85.1324), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 16) at position: (x = 115.2463, y = 77.7334), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 13) at position: (x = 75.4568, y = 32.8919), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 34) at position: (x = 81.5543, y = 88.9473), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 1) at position: (x = 144.7225, y = 23.8548), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 33) at position: (x = 61.4649, y = 37.6199), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 33) at position: (x = 61.4649, y = 37.6199), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:About to attempt a docking move
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 15) at position: (x = 199.6811, y = 64.8783), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 9) at position: (x = 168.8321, y = 85.1324), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 13) at position: (x = 173.7819, y = 94.0816), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 13) at position: (x = 173.7819, y = 94.0816), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 13) at position: (x = 173.7819, y = 94.0816), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 13) at position: (x = 173.7819, y = 94.0816), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 13) at position: (x = 173.7819, y = 94.0816), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 13) at position: (x = 173.7819, y = 94.0816), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 13) at position: (x = 173.7819, y = 94.0816), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 13) at position: (x = 173.7819, y = 94.0816), with radius = 6.3816
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:About to attempt a docking move
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:About to attempt a docking move
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 46) at position: (x = 74.6388, y = 20.1799), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 4) at position: (x = 66.0141, y = 26.3922), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:About to attempt a docking move
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:nearest_docked_enemy method started
+INFO:root:Entity Ship (id: 1) at position: (x = 144.7225, y = 23.8548), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
+INFO:root:---NEW TURN---
+INFO:root:updated gaming map
+INFO:root:about to nearest
+INFO:root:nearest_planet_to_ship called
+INFO:root:entity is a ship
+INFO:root:nearestPlanet instantiated
+INFO:root:Check ship actions
+INFO:root:Entity Planet (id: 5) at position: (x = 155.37, y = 18.3909), with radius = 8.3878
 INFO:root:---NEW TURN---

@@ -38,7 +38,9 @@ while True:
             # Skip this ship
             continue
 
+        logging.info("about to nearest")
         nearestPlanet = hlt.Gen.nearest_planet_to_ship(ship, game_map)
+        logging.info("nearestPlanet instantiated")
 
         #what is all planets are owned
         # if (nearestPlanet == None):
@@ -53,16 +55,17 @@ while True:
         logging.info("Check ship actions")
         # If we can dock, let's (try to) dock. If two ships try to dock at once, neither will be able to.
         if ship.can_dock(nearestPlanet):
+            logging.info("About to attempt a docking move")
             # We add the command by appending it to the command_queue
             command_queue.append(ship.dock(nearestPlanet))
 
         elif nearestPlanet == None:
             #after all the planets are taken ships need to make thrustmoves to attack
             #lets try attacking docked enemy ships
-            fleet = game_map.get_me().all_ships()
-            enemyPlanet = hlt.Gen.nearest_enemy_planet(ship, game_map, me)
-            if enemyPlanet != None:
-                navigate_command = fleet.navigate(enemyPlanet, game_map, speed=hlt.constants.MAX_SPEED, ignore_ships=True)
+            enemyShip = hlt.Gen.nearest_docked_enemy(ship, game_map, me)
+            logging.info(enemyShip)
+            if enemyShip != None:
+                navigate_command = ship.navigate(enemyShip, game_map, speed=hlt.constants.MAX_SPEED, ignore_ships=True)
             if navigate_command:
                 command_queue.append(navigate_command)
 
@@ -75,6 +78,7 @@ while True:
             # This will mean that you have a higher probability of crashing into ships, but it also means you will
             # make move decisions much quicker. As your skill progresses and your moves turn more optimal you may
             # wish to turn that option off.
+            logging.info(nearestPlanet)
             navigate_command = ship.navigate(ship.closest_point_to(nearestPlanet), game_map, speed=hlt.constants.MAX_SPEED, ignore_ships=False)
             # If the move is possible, add it to the command_queue (if there are too many obstacles on the way
             # or we are trapped (or we reached our destination!), navigate_command will return null;
