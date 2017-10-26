@@ -32,6 +32,7 @@ while True:
     command_queue = []
     # For every ship that I control
     for ship in game_map.get_me().all_ships():
+        nearestPlanet = None
         # If the ship is docked
         if ship.docking_status != ship.DockingStatus.UNDOCKED:
             # Skip this ship
@@ -42,8 +43,8 @@ while True:
         logging.info("nearestPlanet instantiated")
 
         #what is all planets are owned
-        if (nearestPlanet == None):
-            nearestPlanet = hlt.Gen.nearest_enemy_planet(ship, game_map, me)
+        # if (nearestPlanet == None):
+        #     nearestPlanet = hlt.Gen.nearest_enemy_planet(ship, game_map, me)
 
         # # For each planet in the game (only non-destroyed planets are included)
         # for planet in game_map.all_planets():
@@ -51,11 +52,23 @@ while True:
         #     if planet.is_owned():
         #         # Skip this planet
         #         continue
-
+        logging.info("Check ship actions")
         # If we can dock, let's (try to) dock. If two ships try to dock at once, neither will be able to.
         if ship.can_dock(nearestPlanet):
+            logging.info("About to attempt a docking move")
             # We add the command by appending it to the command_queue
             command_queue.append(ship.dock(nearestPlanet))
+
+        elif nearestPlanet == None:
+            #after all the planets are taken ships need to make thrustmoves to attack
+            #lets try attacking docked enemy ships
+            enemyShip = hlt.Gen.nearest_docked_enemy(ship, game_map, me)
+            logging.info(enemyShip)
+            if enemyShip != None:
+                navigate_command = ship.navigate(enemyShip, game_map, speed=hlt.constants.MAX_SPEED, ignore_ships=True)
+            if navigate_command:
+                command_queue.append(navigate_command)
+
         else:
             # If we can't dock, we move towards the closest empty point near this planet (by using closest_point_to)
             # with constant speed. Don't worry about pathfinding for now, as the command will do it for you.
@@ -65,6 +78,7 @@ while True:
             # This will mean that you have a higher probability of crashing into ships, but it also means you will
             # make move decisions much quicker. As your skill progresses and your moves turn more optimal you may
             # wish to turn that option off.
+            logging.info(nearestPlanet)
             navigate_command = ship.navigate(ship.closest_point_to(nearestPlanet), game_map, speed=hlt.constants.MAX_SPEED, ignore_ships=False)
             # If the move is possible, add it to the command_queue (if there are too many obstacles on the way
             # or we are trapped (or we reached our destination!), navigate_command will return null;

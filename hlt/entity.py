@@ -28,6 +28,9 @@ class Entity:
         self.owner = player
         self.id = entity_id
 
+    def get_owner_id(self):
+        return self.owner
+
     def calculate_distance_between(self, target):
         """
         Calculates the distance between this object and the target.
@@ -116,10 +119,6 @@ class Planet(Entity):
         :rtype: Ship
         """
         return self._docked_ships.get(ship_id)
-
-    def get_owner_id(self):
-        return self.owner
-
 
     def all_docked_ships(self):
         """
@@ -240,6 +239,9 @@ class Ship(Entity):
         self._docking_progress = progress
         self._weapon_cooldown = cooldown
 
+    # def is_docked(self):
+    #     return self.docking_status == Ship.DockingStatus.DOCKED
+
     def thrust(self, magnitude, angle):
         """
         Generate a command to accelerate this ship.
@@ -316,6 +318,8 @@ class Ship(Entity):
         :return: True if can dock, False otherwise
         :rtype: bool
         """
+        if planet == None:
+            return False
         return self.calculate_distance_between(planet) <= planet.radius + constants.DOCK_RADIUS
 
     def _link(self, players, planets):
@@ -395,3 +399,22 @@ class Position(Entity):
 
     def _link(self, players, planets):
         raise NotImplementedError("Position should not have link attributes.")
+
+# class Fleet(Entity):
+#     """
+#     Intended to be a group of ships that all respond together
+#     def
+#     """
+
+#     def __init__(self, player_id, ship_id, x, y, hp, vel_x, vel_y,
+#                  docking_status, planet, progress, cooldown):
+#         self.id = ship_id
+#         self.x = x
+#         self.y = y
+#         self.owner = player_id
+#         self.radius = constants.SHIP_RADIUS
+#         self.health = hp
+#         self.docking_status = docking_status
+#         self.planet = planet if (docking_status is not Ship.DockingStatus.UNDOCKED) else None
+#         self._docking_progress = progress
+#         self._weapon_cooldown = cooldown
