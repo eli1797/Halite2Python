@@ -19,7 +19,7 @@ import logging
 # Here we define the bot's name as Settler and initialize the game, including communication with the Halite engine.
 game = hlt.Game("Troll")
 # Then we print our start message to the logs
-logging.info("Starting my Bay bot!")
+logging.info("Starting my Troll bot!")
 turn_count = 0
 allCapturedFlag = False
 
