@@ -37,7 +37,7 @@ while True:
             # Skip this ship
             continue
 
-        nearestPlanet = hlt.Gen.nearest_planet_to_ship(ship, game_map)
+        nearestPlanet = hlt.Gen.nearest_free_planet_to_ship(ship, game_map)
 
         #what is all planets are owned
         # if (nearestPlanet == None):

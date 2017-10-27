@@ -29,7 +29,7 @@ class Entity:
         self.id = entity_id
 
     def get_owner_id(self, entity):
-        return self.owner
+        return entity.owner.get_id()
 
     def calculate_distance_between(self, target):
         """

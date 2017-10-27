@@ -43,18 +43,17 @@ class Gen:
         nearest_planet = None
         if isinstance(entity, Ship):
             ship = entity
-            entities_by_distance = game_map.nearby_entities_by_distance(ship)
-            for distance in sorted(entities_by_distance):
-                temp = next((nearest_entity for nearest_entity in entities_by_distance[distance]), None)
+            planets_by_distance = game_map.nearby_planets_by_distance(ship)
+            for distance in sorted(planets_by_distance):
+                temp = next((nearest_entity for nearest_entity in planets_by_distance[distance]), None)
                 if isinstance(temp, Ship):
                     #we want planets not ships so skip this entity
                     continue
-                if temp.get_owner_id(temp) != me.get_id():
+                if temp.get_owner_id(temp) == me.get_id():
                     continue
                 nearest_planet = temp
                 if nearest_planet != None:
                     break
-        logging.info(nearest_planet)
         return nearest_planet
 
     @staticmethod
