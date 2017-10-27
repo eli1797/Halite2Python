@@ -44,6 +44,9 @@ class Gen:
         if isinstance(entity, Ship):
             ship = entity
             planets_by_distance = game_map.nearby_planets_by_distance(ship)
+            # post submission if statement
+            if planets_by_distance == {}:
+                return None
             for distance in sorted(planets_by_distance):
                 temp = next((nearest_entity for nearest_entity in planets_by_distance[distance]), None)
                 if isinstance(temp, Ship):
@@ -67,19 +70,38 @@ class Gen:
         toReturn = None
         if isinstance(entity, Ship):
             ship = entity
-            entities_by_distance = game_map.nearby_entities_by_distance(ship)
-            if entities_by_distance == None:
+            ships_by_distance = game_map.nearby_ships_by_distance(ship)
+            if ships_by_distance == None:
                 return None
-            for distance in sorted(entities_by_distance):
-                temp = next((nearest_entity for nearest_entity in entities_by_distance[distance]), None)
-                if temp == None:
-                    continue
-                if isinstance(temp, Planet):
-                    #we want planets not ships so skip this entity
-                    continue
+            for distance in sorted(ships_by_distance):
+                temp = next((nearest_entity for nearest_entity in ships_by_distance[distance]), None)
                 if temp.docking_status == ship.DockingStatus.UNDOCKED:
                     continue
-                if temp.get_owner_id(temp) != me.get_id():
+                if temp.get_owner_id(temp) == me.get_id():
+                    # Don't want to attack myself
+                    continue
+                toReturn = temp
+                if toReturn != None:
+                    break
+        return toReturn
+
+    @staticmethod
+    def nearest_enemy_ship(entity, game_map, me):
+        logging.info("nearest_enemy_ship method started")
+        """
+        :param ent: The source entity (hopefully a ship)
+        :return: Entity of type planet that is closest to the ship
+        :rtype: entity
+        """
+        toReturn = None
+        if isinstance(entity, Ship):
+            ship = entity
+            ships_by_distance = game_map.nearby_ships_by_distance(ship)
+            if ships_by_distance == None:
+                return None
+            for distance in sorted(ships_by_distance):
+                temp = next((nearest_entity for nearest_entity in ships_by_distance[distance]), None)
+                if temp.get_owner_id(temp) == me.get_id():
                     # Don't want to attack myself
                     continue
                 toReturn = temp
