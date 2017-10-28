@@ -144,8 +144,6 @@ class Planet(Entity):
         :return: True if full, False otherwise.
         :rtype: bool
         """
-        if (self == None):
-            return None
         return len(self._docked_ship_ids) >= self.num_docking_spots
 
     def _link(self, players, planets):

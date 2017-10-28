@@ -67,7 +67,7 @@ while True:
 
         else:
 
-            nearestPlanet = hlt.Gen.nearest_planet_to_ship(ship, game_map)
+            nearestPlanet = hlt.Gen.nearest_free_planet_to_ship(ship, game_map)
 
             # If we can dock, let's (try to) dock. If two ships try to dock at once, neither will be able to.
             if nearestPlanet != None and ship.can_dock(nearestPlanet) and not nearestPlanet.is_full():
