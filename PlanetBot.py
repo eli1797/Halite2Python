@@ -50,25 +50,31 @@ while True:
                 
                 nearestPlanet = hlt.Gen.nearest_free_planet_to_ship(ship, game_map, ignore_ownership = True)
                 if nearestPlanet == None:
-                    navigate_command = ship.thrust(0,0)
+                    nearestPlanet = hlt.Gen.nearest_enemy_planet(ship, game_map)
+                    if nearestPlanet != None:
+                        navigate_command = ship.navigate(ship.closest_point_to(nearestPlanet), game_map, speed=hlt.constants.MAX_SPEED, ignore_ships=False)
+                    else: 
+                        planets = game_map.all_planets()
+                        nearestPlanet = planets[0]
+                        navigate_command = ship.navigate(ship.closest_point_to(nearestPlanet), game_map, speed=hlt.constants.MAX_SPEED, ignore_ships=False)
+
                     if navigate_command:
                         command_queue.append(navigate_command)
-                    continue
+                    else:
+                        command_queue.append(ship.thrust(0,0))
+
                 elif nearestPlanet.is_full():
                      nearestPlanet = hlt.Gen.nearest_free_planet_to_ship(ship, game_map)
 
                 # If we can dock, let's (try to) dock. If two ships try to dock at once, neither will be able to.
-                if nearestPlanet != None and ship.can_dock(nearestPlanet) and not nearestPlanet.is_full():
+                elif nearestPlanet != None and ship.can_dock(nearestPlanet) and not nearestPlanet.is_full():
                     logging.info("About to attempt a docking move")
                     # We add the command by appending it to the command_queue
                     dock_count += 1
                     command_queue.append(ship.dock(nearestPlanet))
 
-                elif nearestPlanet == None:
-
                     #after all the planets are taken ships need to make thrustmoves to attack
                     #lets try attacking docked enemy ships
-                    planetMode = True
 
                 # elif nearestPlanet.is_full():
                 #     nearestPlanet = nearest_friendly_planet_to_ship
@@ -77,6 +83,8 @@ while True:
                     navigate_command = ship.navigate(ship.closest_point_to(nearestPlanet), game_map, speed=hlt.constants.MAX_SPEED, ignore_ships=False)
                     if navigate_command:
                         command_queue.append(navigate_command)
+                    else: 
+                        command_queue.append(ship.thrust(0,0))
                     if turn_count < 4:
                         break            
             if ship.docking_status != ship.DockingStatus.UNDOCKED:
