@@ -22,6 +22,7 @@ game = hlt.Game("Mining")
 logging.info("Starting my Planet bot!")
 turn_count = 0
 allCapturedFlag = False
+allMined = False
 
 while True:
     # TURN START
@@ -29,7 +30,6 @@ while True:
     game_map = game.update_map()
     logging.info("updated gaming map")
     me = game_map.get_me()
-    logging.info(me)
     if turn_count == 0:
         players = game_map.all_players()
         logging.info(players)
@@ -39,15 +39,16 @@ while True:
 
     # Here we define the set of commands to be sent to the Halite engine at the end of the turn
     command_queue = []
-    for ship in game_map.get_me().all_ships():
-        # If the ship is docked
-        if ship.docking_status != ship.DockingStatus.UNDOCKED:
-            # if ship.docking_status == ship.DockingStatus.DOCKED:
-            #     # if the planet is fully mined / full undock the ship
-            #     logging.info("Found a docked ship")
-            continue
 
-        if not allCapturedFlag:
+    if not allCapturedFlag:
+        for ship in game_map.get_me().all_ships():
+            # If the ship is docked
+            if ship.docking_status != ship.DockingStatus.UNDOCKED:
+                # if ship.docking_status == ship.DockingStatus.DOCKED:
+                #     # if the planet is fully mined / full undock the ship
+                #     logging.info("Found a docked ship")
+                continue
+
 
             nearestPlanet = hlt.Gen.nearest_free_planet_to_ship(ship, game_map)
             # If we can dock, let's (try to) dock. If two ships try to dock at once, neither will be able to.
@@ -82,33 +83,24 @@ while True:
                     command_queue.append(navigate_command)
                 if turn_count < 5:
                     break            
+    elif not allMined:
+        for ship in game_map.get_me().all_ships():
+            # If the ship is docked
+            if ship.docking_status != ship.DockingStatus.UNDOCKED:
+                # if ship.docking_status == ship.DockingStatus.DOCKED:
+                #     # if the planet is fully mined / full undock the ship
+                #     logging.info("Found a docked ship")
+                continue
 
-        # else:
-        #     for planet in game_map.get_me().all_planets():  
-        #         if planet.get_owner_id(planet) != me.get_id():
-        #             continue
-
-        #         #get all the ships assigned to that planet
-        #         group = planet.all_docked_ships()
-
-        #         #place them in a fleet
-        #         for ship in group:
-        #             logging.info(ship.get_fleet())
-
-
-        else:
             my_nearest_planet = hlt.Gen.mining_helper(ship, game_map, me)
-
-            if my_nearest_planet is None or my_nearest_planet.is_full():
-                logging.info("defense")
-
+            
+            if my_nearest_planet is None:
+                allMined = True
+                command_queue.append(ship.thrust(0,0))
             elif ship.can_dock(my_nearest_planet):
                 logging.info("About to attempt a docking move")
                 # We add the command by appending it to the command_queue
                 command_queue.append(ship.dock(my_nearest_planet))
-
-
-
             else:
                 # If we can't dock, we move towards the closest empty point near this planet (by using closest_point_to)
                 # with constant speed. Don't worry about pathfinding for now, as the command will do it for you.
@@ -124,7 +116,22 @@ while True:
                 # or we are trapped (or we reached our destination!), navigate_command will return null;
                 # don't fret though, we can run the command again the next turn)
                 if navigate_command:
-                    command_queue.append(navigate_command)  
+                    command_queue.append(navigate_command) 
+                
+    else:
+        logging.info("final expansion")
+        the_planets = game_map.all_planets()
+        the_ships = game_map.get_me().all_ships()
+        for current in range(0, len(the_ships)):
+            ship = the_ships[current]
+            to_nav = the_planets[current % len(the_planets)]
+            navigate_command = ship.navigate(ship.closest_point_to(to_nav), game_map, speed=hlt.constants.MAX_SPEED, ignore_ships=False)
+            if navigate_command:
+                logging.info("appending")
+                command_queue.append(navigate_command)
+            else:
+                command_queue.append(ship.thrust(0,0))
+
 
     # Send our set of commands to the Halite engine for this turn
     game.send_command_queue(command_queue)

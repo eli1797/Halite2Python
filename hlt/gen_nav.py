@@ -85,22 +85,21 @@ class Gen:
         :rtype: entity
         """
         nearest_planet = None
-        if isinstance(entity, Ship):
-            ship = entity
-            planets_by_distance = game_map.nearby_planets_by_distance(ship)
-            # post submission if statement
-            if planets_by_distance == {}:
-                return None
-            for distance in sorted(planets_by_distance):
-                temp = next((nearest_entity for nearest_entity in planets_by_distance[distance]), None)
-                if isinstance(temp, Ship):
-                    #we want planets not ships so skip this entity
-                    continue
-                if temp.get_owner_id(temp) == me.get_id():
-                    continue
-                nearest_planet = temp
-                if nearest_planet != None:
-                    break
+        planets_by_distance = game_map.nearby_planets_by_distance(ship)
+        # post submission if statement
+        if not planets_by_distance:
+            return None
+        logging.info("entering for loop")
+        for distance in sorted(planets_by_distance):
+            logging.info(distance)
+            temp = next((nearest_entity for nearest_entity in planets_by_distance[distance]), None)
+            if temp is None:
+                break
+            if temp.get_owner_id(temp) == me.get_id():
+                continue
+            nearest_planet = temp
+            if nearest_planet is not None:
+                break
         return nearest_planet
 
     @staticmethod
