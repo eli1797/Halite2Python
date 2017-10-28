@@ -8,7 +8,7 @@ class Gen:
             -Returning the nearest planet to a ship
     """
     @staticmethod
-    def nearest_free_planet_to_ship(entity, game_map):
+    def nearest_free_planet_to_ship(entity, game_map, ignore_ownership = False):
         logging.info("nearest_free_planet_to_ship called")
         """
         :param ent: The source entity (hopefully a ship)
@@ -21,7 +21,7 @@ class Gen:
             entities_by_distance = game_map.nearby_planets_by_distance(ship)
             for distance in sorted(entities_by_distance):
                 temp = next((nearest_entity for nearest_entity in entities_by_distance[distance]), None)
-                if temp.is_owned():
+                if (not ignore_ownership and temp.is_owned()) is True:
                     # Skip this planet
                     continue
                 nearest_planet = temp
@@ -78,28 +78,32 @@ class Gen:
 
     @staticmethod
     def nearest_enemy_planet(entity, game_map, me):
-        logging.info("nearest_enemy_planet method started")
+        logging.info("nearest_enemy_planet started")
         """
-        :param ent: The source entity (hopefully a ship)
-        :return: Entity of type planet that is closest to the ship
+        :param ent: The source entity
+        :return: Entity of type planet that is closest to the entity and not mine
         :rtype: entity
         """
-        nearest_planet = None
-        planets_by_distance = game_map.nearby_planets_by_distance(ship)
-        # post submission if statement
-        if not planets_by_distance:
-            return None
-        logging.info("entering for loop")
-        for distance in sorted(planets_by_distance):
-            logging.info(distance)
-            temp = next((nearest_entity for nearest_entity in planets_by_distance[distance]), None)
-            if temp is None:
+
+        nearest_planet = None  
+        entities_by_distance = game_map.nearby_planets_by_distance(entity)
+        logging.info(entities_by_distance)
+        sort_ent = sorted(entities_by_distance)
+        logging.info(sort_ent)
+        for ent in sort_ent.values():
+            logging.info(ent)
+            if ent is None:
                 break
-            if temp.get_owner_id(temp) == me.get_id():
+            if ent.get_owner_id() is None:
+                continue
+            if temp.get_owner_id() == me.get_id():
+                # Skip this planet
                 continue
             nearest_planet = temp
-            if nearest_planet is not None:
+            if nearest_planet != None:
                 break
+        logging.info("Returning:")
+        logging.info(nearest_planet)
         return nearest_planet
 
     @staticmethod

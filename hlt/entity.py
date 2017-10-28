@@ -28,8 +28,11 @@ class Entity:
         self.owner = player
         self.id = entity_id
 
-    def get_owner_id(self, entity):
-        return entity.owner.get_id()
+    def get_owner_id(self, entity = None):
+        if entity is not None:
+            return entity.owner.get_id()
+        else:
+            return self.owner.get_id()
 
     def calculate_distance_between(self, target):
         """
@@ -399,22 +402,3 @@ class Position(Entity):
 
     def _link(self, players, planets):
         raise NotImplementedError("Position should not have link attributes.")
-
-# class Fleet(Entity):
-#     """
-#     Intended to be a group of ships that all respond together
-#     def
-#     """
-
-#     def __init__(self, player_id, ship_id, x, y, hp, vel_x, vel_y,
-#                  docking_status, planet, progress, cooldown):
-#         self.id = ship_id
-#         self.x = x
-#         self.y = y
-#         self.owner = player_id
-#         self.radius = constants.SHIP_RADIUS
-#         self.health = hp
-#         self.docking_status = docking_status
-#         self.planet = planet if (docking_status is not Ship.DockingStatus.UNDOCKED) else None
-#         self._docking_progress = progress
-#         self._weapon_cooldown = cooldown

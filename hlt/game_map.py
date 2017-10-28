@@ -1,5 +1,5 @@
 from . import collision, entity
-
+import logging
 
 class Map:
     """
@@ -83,6 +83,7 @@ class Map:
             if entity == foreign_entity:
                 continue
             result.setdefault(entity.calculate_distance_between(foreign_entity), []).append(foreign_entity)
+        logging.info(result)
         return result
 
     def nearby_ships_by_distance(self, entity):

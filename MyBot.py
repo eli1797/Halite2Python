@@ -49,7 +49,7 @@ while True:
             #     logging.info("Found a docked ship")
             continue
 
-        if twoPlayers:
+        if not twoPlayers:
             logging.info("inside two players")
             #straight up attack docked ships
             dockedEnemy = hlt.Gen.nearest_docked_enemy(ship, game_map, me)

@@ -102,36 +102,31 @@ while True:
                 # We add the command by appending it to the command_queue
                 command_queue.append(ship.dock(my_nearest_planet))
             else:
-                # If we can't dock, we move towards the closest empty point near this planet (by using closest_point_to)
-                # with constant speed. Don't worry about pathfinding for now, as the command will do it for you.
-                # We run this navigate command each turn until we arrive to get the latest move.
-                # Here we move at half our maximum speed to better control the ships
-                # In order to execute faster we also choose to ignore ship collision calculations during navigation.
-                # This will mean that you have a higher probability of crashing into ships, but it also means you will
-                # make move decisions much quicker. As your skill progresses and your moves turn more optimal you may
-                # wish to turn that option off.
                 logging.info("just moving")
                 navigate_command = ship.navigate(ship.closest_point_to(my_nearest_planet), game_map, speed=hlt.constants.MAX_SPEED, ignore_ships=False)
-                # If the move is possible, add it to the command_queue (if there are too many obstacles on the way
-                # or we are trapped (or we reached our destination!), navigate_command will return null;
-                # don't fret though, we can run the command again the next turn)
                 if navigate_command:
                     command_queue.append(navigate_command) 
                 
     else:
         logging.info("final expansion")
-        the_planets = game_map.all_planets()
-        the_ships = game_map.get_me().all_ships()
-        for current in range(0, len(the_ships)):
-            ship = the_ships[current]
-            to_nav = the_planets[current % len(the_planets)]
-            navigate_command = ship.navigate(ship.closest_point_to(to_nav), game_map, speed=hlt.constants.MAX_SPEED, ignore_ships=False)
+        for a_ship in game_map.get_me().all_ships():
+            if a_ship.docking_status != Ship.DockingStatus.UNDOCKED:
+                continue
+
+            logging.info("about to enter enemyPlanet")
+            enemyPlanet = hlt.Gen.nearest_enemy_planet(a_ship, game_map, me)
+            if enemyPlanet is not None:
+                dockedList = enemyPlanet.all_docked_ships()
+                if dockedList:
+                    dockedEnemy = dockedList[0]
+                    if dockedEnemy is not None:
+                        navigate_command = a_ship.navigate(ship.closest_point_to(dockedEnemy), game_map, speed=hlt.constants.MAX_SPEED, ignore_ships=False)
+
             if navigate_command:
-                logging.info("appending")
                 command_queue.append(navigate_command)
             else:
-                command_queue.append(ship.thrust(0,0))
-
+                navigate_command = a_ship.thrust(0, 0)
+            break
 
     # Send our set of commands to the Halite engine for this turn
     game.send_command_queue(command_queue)
